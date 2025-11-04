@@ -30,7 +30,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    https://6909fb5a1a446bb9cc20d966.mockapi.io/api/v1/categories
    ```
-   -Get favorites
+   - Get favorites
    ```bash
    https://6909fb5a1a446bb9cc20d966.mockapi.io/api/v1/favorites
    ```
