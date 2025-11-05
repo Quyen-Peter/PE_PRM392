@@ -63,7 +63,7 @@ export default function FavoritesScreen() {
     return data;
   }, [uniqueFavorites, query, selectedCat]);
 
-  if (loading) return <ActivityIndicator size="large" style={{ marginTop: 40 }} />;
+  if (loading) return <ActivityIndicator size="large" style={{ marginTop: 200 }} />;
 
   if (uniqueFavorites.length === 0)
     return (

@@ -56,7 +56,7 @@ export default function HomeScreen() {
   }, [query, selectedCat, movies]);
 
   if (loading)
-    return <ActivityIndicator size="large" style={{ marginTop: 40 }} />;
+    return <ActivityIndicator size="large" style={{ marginTop: 200 }} />;
 
   const accent = isDark ? "#4da6ff" : "#007AFF";
   const textColor = isDark ? "#fff" : "#000";
